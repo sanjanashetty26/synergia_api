@@ -54,7 +54,7 @@ git clone https://github.com/yourusername/synergia-booking-api.git
 2. Navigate to project folder:
 
 ```
-cd synergia-booking-api
+cd synergia_api
 ```
 
 3. Install dependencies:
@@ -73,7 +73,7 @@ PORT=5000
 5. Start MongoDB server:
 
 ```
-mongod --dbpath <your-db-path>
+mongod --dbpath ./data/db
 ```
 
 6. Run the server:
